@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "recursion.py\\recursion.py-sdsm",
+  "variables" : [ "recursion.fact" ],
+  "cells" : [ ]
+}

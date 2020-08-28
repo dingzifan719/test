@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "Car.py\\Car.py-sdsm",
+  "variables" : [ "Car.Car.__init__", "Car.Car.accept", "Car.Car.operateCar", "Car.Car.printCar", "Car.Car.getCar" ],
+  "cells" : [ ]
+}

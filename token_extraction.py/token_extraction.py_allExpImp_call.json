@@ -1,0 +1,6 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "token_extraction.py\\token_extraction.py-sdsm",
+  "variables" : [ "token_extraction.create_udb", "token_extraction.normalization" ],
+  "cells" : [ ]
+}
