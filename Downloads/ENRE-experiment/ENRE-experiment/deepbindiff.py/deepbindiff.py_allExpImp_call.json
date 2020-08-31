@@ -1,0 +1,42 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "deepbindiff.py\\deepbindiff.py-sdsm",
+  "variables" : [ "deepbindiff.vocBuild", "deepbindiff.articlesGen", "deepbindiff.cal_block_embeddings", "deepbindiff.feature_vec_file_gen", "deepbindiff.copyEverythingOver", "deepbindiff.main", "deepbindiff.__main__" ],
+  "cells" : [ {
+    "src" : 5,
+    "dest" : 0,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 4,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 6,
+    "dest" : 5,
+    "values" : {
+      "Call" : 1.0
+    }
+  } ]
+}

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Aug 01 08:54:02 CST 2020
+antlr4-runtime-4.7.1-sources.jar>alimaven=
+antlr4-runtime-4.7.1.jar>alimaven=
+antlr4-runtime-4.7.1.pom>alimaven=

@@ -1,0 +1,9 @@
+Id,type,label,Parent
+0,File,C:/Users/dingz/Downloads/ENRE-experiment/ENRE-experiment/test/Car.py,-1
+1,Class,Car,0
+2,Function,__init__,1
+4,Variable,elements,1
+5,Function,accept,1
+8,Function,operateCar,1
+10,Function,printCar,1
+12,Function,getCar,1

@@ -1,0 +1,154 @@
+dataPath$35$35$0$8$readyforchange$readyforchange
+defPath$36$36$0$7$readyforchange$readyforchange
+gitRoot$37$37$0$7$readyforchange$readyforchange
+cpRoot$38$38$0$6$readyforchange$readyforchange
+files$39$39$0$5$readyforchange$readyforchange
+os.listdir(dataPath)$39$39$8$28$readyforchange$readyforchange
+def_files$40$40$0$9$readyforchange$readyforchange
+os.listdir(defPath)$40$40$12$31$readyforchange$readyforchange
+txtFile$41$41$4$11$readyforchange$readyforchange
+txtName$42$42$4$11$readyforchange$readyforchange
+txtFile.split(""."")[0]$42$42$14$35$readyforchange$readyforchange
+srcName$43$43$4$11$readyforchange$readyforchange
+srcName1$44$44$4$12$readyforchange$readyforchange
+dstName$45$45$4$11$readyforchange$readyforchange
+dstName1$46$46$4$12$readyforchange$readyforchange
+src_defPath$47$47$4$15$readyforchange$readyforchange
+dst_defPath$48$48$4$15$readyforchange$readyforchange
+txt$49$49$4$7$readyforchange$readyforchange
+open(dataPath + txtFile, ""r"")$49$49$10$39$readyforchange$readyforchange
+txt_srcDef$50$50$4$14$readyforchange$readyforchange
+open(src_defPath, ""r"")$50$50$17$39$readyforchange$readyforchange
+txt_dstDef$51$51$4$14$readyforchange$readyforchange
+lines$52$52$4$9$readyforchange$readyforchange
+txt.readlines()$52$52$12$27$readyforchange$readyforchange
+lines_srcDef$53$53$4$16$readyforchange$readyforchange
+txt_srcDef.readlines()$53$53$19$41$readyforchange$readyforchange
+lines_dstDef$54$54$4$16$readyforchange$readyforchange
+txt_dstDef.readlines()$54$54$19$41$readyforchange$readyforchange
+repoName$55$55$4$12$readyforchange$readyforchange
+cpName$56$56$4$10$readyforchange$readyforchange
+txtFile.split(""_"")[1].split(""."")[0]$56$56$13$48$readyforchange$readyforchange
+gitPath$58$58$4$11$readyforchange$readyforchange
+diffPath$59$59$4$12$readyforchange$readyforchange
+diffFile$60$60$4$12$readyforchange$readyforchange
+open(diffPath, ""r"")$60$60$15$34$readyforchange$readyforchange
+diffLines$61$61$4$13$readyforchange$readyforchange
+diffFile.readlines()$61$61$16$36$readyforchange$readyforchange
+old_commit$62$62$4$14$readyforchange$readyforchange
+diffLines[1].split("";"")[0]$62$62$17$43$readyforchange$readyforchange
+new_commit$63$63$4$14$readyforchange$readyforchange
+os.chdir(gitPath)$64$64$4$21$readyforchange$readyforchange
+fileName$66$66$4$12$readyforchange$readyforchange
+startLine_src$67$67$4$17$readyforchange$readyforchange
+endLine_src$68$68$4$15$readyforchange$readyforchange
+startCol_src$69$69$4$16$readyforchange$readyforchange
+endCol_src$70$70$4$14$readyforchange$readyforchange
+startLine_dst$71$71$4$17$readyforchange$readyforchange
+endLine_dst$72$72$4$15$readyforchange$readyforchange
+startCol_dst$73$73$4$16$readyforchange$readyforchange
+endCol_dst$74$74$4$14$readyforchange$readyforchange
+len(lines)$75$75$7$17$readyforchange$readyforchange
+src$76$76$8$11$readyforchange$readyforchange
+open(""D:\\workspace\\Pycharm\\Understand_analysis\\seqs\\""+srcName, ""w"")$76$76$14$86$readyforchange$readyforchange
+dst$78$78$8$11$readyforchange$readyforchange
+open(""D:\\workspace\\Pycharm\\Understand_analysis\\seqs\\""+dstName, ""w"")$78$78$14$86$readyforchange$readyforchange
+os.system(""git checkout "" + old_commit)$80$80$8$47$readyforchange$readyforchange
+old_path$81$81$8$16$readyforchange$readyforchange
+db$83$83$8$10$readyforchange$readyforchange
+understand.open(old_path)$83$83$13$38$readyforchange$readyforchange
+lineNum$84$84$8$15$readyforchange$readyforchange
+line$85$85$12$16$readyforchange$readyforchange
+defLine_src$86$86$12$23$readyforchange$readyforchange
+lines_srcDef[lineNum]$86$86$26$47$readyforchange$readyforchange
+longName_src$88$88$12$24$readyforchange$readyforchange
+line.split("";"")[0]$88$88$27$45$readyforchange$readyforchange
+print(""longName:"", longName_src)$89$89$12$44$readyforchange$readyforchange
+tmps$90$90$12$16$readyforchange$readyforchange
+longName_src.split(""\\"")$90$90$19$43$readyforchange$readyforchange
+len(tmps)$91$91$28$37$readyforchange$readyforchange
+tmps[len(tmps) - 1]$91$91$23$42$readyforchange$readyforchange
+exact_longName$92$92$12$26$readyforchange$readyforchange
+begin_index$93$93$12$23$readyforchange$readyforchange
+tmps.index(""src"")$93$93$26$43$readyforchange$readyforchange
+tmp$95$95$16$19$readyforchange$readyforchange
+exact_longName[:-1]$97$97$29$48$readyforchange$readyforchange
+print(""exactName:"", exact_longName)$98$98$12$47$readyforchange$readyforchange
+line.split("";"")[2].split(""->"")[0].split("","")[0]$100$100$32$79$readyforchange$readyforchange
+int(line.split("";"")[2].split(""->"")[0].split("","")[0])$100$100$28$80$readyforchange$readyforchange
+findFile$104$104$12$20$readyforchange$readyforchange
+begin$105$105$12$17$readyforchange$readyforchange
+print(startLine_src, endLine_src, startCol_src, endCol_src)$106$106$12$71$readyforchange$readyforchange
+file$107$107$16$20$readyforchange$readyforchange
+db.ents(""File"")$107$107$24$39$readyforchange$readyforchange
+file.longname()$108$108$37$52$readyforchange$readyforchange
+print(""find file:"", fileName, file.longname())$109$109$20$66$readyforchange$readyforchange
+lexemes$110$110$20$27$readyforchange$readyforchange
+file.lexer().lexemes(startLine_src, endLine_src)$110$110$30$78$readyforchange$readyforchange
+start_lexeme$111$111$20$32$readyforchange$readyforchange
+file.lexer().lexeme(startLine_src, startCol_src-1)$111$111$35$85$readyforchange$readyforchange
+type_exist$112$112$20$30$readyforchange$readyforchange
+start_text$114$114$24$34$readyforchange$readyforchange
+start_lexeme.text()$114$114$37$56$readyforchange$readyforchange
+start_token$115$115$24$35$readyforchange$readyforchange
+start_lexeme.token()$115$115$38$58$readyforchange$readyforchange
+print(""start_text:"" + start_text)$116$116$24$57$readyforchange$readyforchange
+print(""error type!"")$119$119$24$44$readyforchange$readyforchange
+size$120$120$20$24$readyforchange$readyforchange
+len(lexemes)$120$120$27$39$readyforchange$readyforchange
+count$121$121$20$25$readyforchange$readyforchange
+fullText$122$122$20$28$readyforchange$readyforchange
+lexeme$123$123$24$30$readyforchange$readyforchange
+lexeme.text()$126$126$32$45$readyforchange$readyforchange
+lexeme.token()$126$126$63$77$readyforchange$readyforchange
+text$138$138$24$28$readyforchange$readyforchange
+str(lexeme.text())$138$138$31$49$readyforchange$readyforchange
+normalization(text, defLine_src)$143$143$31$63$readyforchange$readyforchange
+text.replace(""}"", """")$146$146$35$56$readyforchange$readyforchange
+end$151$151$36$39$readyforchange$readyforchange
+print(text, end="""")$151$151$24$43$readyforchange$readyforchange
+src.write(fullText)$156$156$20$39$readyforchange$readyforchange
+src.write(""\n------\n"")$159$159$12$35$readyforchange$readyforchange
+Exception$162$162$22$31$readyforchange$readyforchange
+os.system(""git checkout "" + new_commit)$164$164$8$47$readyforchange$readyforchange
+new_path$165$165$8$16$readyforchange$readyforchange
+understand.open(new_path)$167$167$13$38$readyforchange$readyforchange
+defLine_dst$170$170$12$23$readyforchange$readyforchange
+lines_dstDef[lineNum]$170$170$26$47$readyforchange$readyforchange
+longName_dst$172$172$12$24$readyforchange$readyforchange
+print(""longName:"", longName_dst)$173$173$12$44$readyforchange$readyforchange
+longName_dst.split(""\\"")$174$174$19$43$readyforchange$readyforchange
+print(startLine_dst, endLine_dst, startCol_dst, endCol_dst)$189$189$12$71$readyforchange$readyforchange
+file.lexer().lexemes(startLine_dst, endLine_dst)$193$193$30$78$readyforchange$readyforchange
+file.lexer().lexeme(startLine_dst, startCol_dst-1)$194$194$35$85$readyforchange$readyforchange
+normalization(text, defLine_dst)$226$226$31$63$readyforchange$readyforchange
+dst.write(fullText)$239$239$20$39$readyforchange$readyforchange
+dst.write(""\n------\n"")$242$242$12$35$readyforchange$readyforchange
+src.close()$246$246$8$19$readyforchange$readyforchange
+dst.close()$247$247$8$19$readyforchange$readyforchange
+output$10$10$8$14$readyforchange$readyforchange
+udb_path$11$11$87$95$readyforchange$readyforchange
+lang$11$11$106$110$readyforchange$readyforchange
+language$11$11$111$119$readyforchange$readyforchange
+project$11$11$121$128$readyforchange$readyforchange
+project_root$11$11$129$141$readyforchange$readyforchange
+""und create -db {udb_path} -languages {lang} add {project} analyze"".format(udb_path=udb_path, lang=language, project=project_root)$11$11$12$142$readyforchange$readyforchange
+shell$12$12$12$17$readyforchange$readyforchange
+subprocess.check_output            ""und create -db {udb_path} -languages {lang} add {project} analyze"".format(udb_path=udb_path, lang=language, project=project_root),            shell=True)$10$12$17$23$readyforchange$readyforchange
+logging.info(output)$13$13$8$28$readyforchange$readyforchange
+subprocess.CalledProcessError$14$14$11$40$readyforchange$readyforchange
+e.output$15$15$26$34$readyforchange$readyforchange
+logging.exception(e.output)$15$15$8$35$readyforchange$readyforchange
+logging.fatal(""udb creation failed"")$16$16$8$44$readyforchange$readyforchange
+Exception$17$17$14$23$readyforchange$readyforchange
+defs$21$21$4$8$readyforchange$readyforchange
+defline.split("";"")$21$21$11$29$readyforchange$readyforchange
+len(defs)$22$22$7$16$readyforchange$readyforchange
+token$23$23$15$20$readyforchange$readyforchange
+defs[:-1]$25$25$15$24$readyforchange$readyforchange
+definition$26$26$8$18$readyforchange$readyforchange
+tmps$27$27$8$12$readyforchange$readyforchange
+definition.split(""->"")$27$27$15$37$readyforchange$readyforchange
+var$28$28$8$11$readyforchange$readyforchange
+tmps[0]$28$28$14$21$readyforchange$readyforchange
+replace_label$29$29$8$21$readyforchange$readyforchange

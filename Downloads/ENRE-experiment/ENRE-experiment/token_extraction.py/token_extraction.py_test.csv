@@ -1,0 +1,202 @@
+dataPath$35$35$regular
+defPath$36$36$regular
+gitRoot$37$37$regular
+cpRoot$38$38$regular
+files$39$39$regular
+os.listdir(dataPath)$39$39$library
+os.listdir(dataPath)$39$39$library
+def_files$40$40$regular
+os.listdir(defPath)$40$40$library
+os.listdir(defPath)$40$40$library
+txtFile$41$41$library
+txtName$42$42$regular
+txtFile.split(""."")[0]$42$42$library
+txtFile.split(""."")[0]$42$42$builtin
+srcName$43$43$regular
+srcName1$44$44$regular
+dstName$45$45$regular
+dstName1$46$46$regular
+src_defPath$47$47$regular
+dst_defPath$48$48$regular
+txt$49$49$regular
+open(dataPath + txtFile, ""r"")$49$49$builtin
+txt_srcDef$50$50$regular
+open(src_defPath, ""r"")$50$50$builtin
+txt_dstDef$51$51$regular
+lines$52$52$regular
+txt.readlines()$52$52$builtin
+txt.readlines()$52$52$builtin
+lines_srcDef$53$53$regular
+txt_srcDef.readlines()$53$53$builtin
+txt_srcDef.readlines()$53$53$builtin
+lines_dstDef$54$54$regular
+txt_dstDef.readlines()$54$54$builtin
+txt_dstDef.readlines()$54$54$builtin
+repoName$55$55$regular
+cpName$56$56$regular
+txtFile.split(""_"")[1].split(""."")[0]$56$56$library
+txtFile.split(""_"")[1].split(""."")[0]$56$56$builtin
+txtFile.split(""_"")[1].split(""."")[0]$56$56$builtin
+gitPath$58$58$regular
+diffPath$59$59$regular
+diffFile$60$60$regular
+open(diffPath, ""r"")$60$60$builtin
+diffLines$61$61$regular
+diffFile.readlines()$61$61$builtin
+diffFile.readlines()$61$61$builtin
+old_commit$62$62$regular
+diffLines[1].split("";"")[0]$62$62$library
+diffLines[1].split("";"")[0]$62$62$builtin
+new_commit$63$63$regular
+os.chdir(gitPath)$64$64$library
+os.chdir(gitPath)$64$64$library
+fileName$66$66$regular
+startLine_src$67$67$regular
+endLine_src$68$68$regular
+startCol_src$69$69$regular
+endCol_src$70$70$regular
+startLine_dst$71$71$regular
+endLine_dst$72$72$regular
+startCol_dst$73$73$regular
+endCol_dst$74$74$regular
+len(lines)$75$75$builtin
+src$76$76$regular
+open(""D:\\workspace\\Pycharm\\Understand_analysis\\seqs\\""+srcName, ""w"")$76$76$builtin
+dst$78$78$regular
+open(""D:\\workspace\\Pycharm\\Understand_analysis\\seqs\\""+dstName, ""w"")$78$78$builtin
+os.system(""git checkout "" + old_commit)$80$80$library
+os.system(""git checkout "" + old_commit)$80$80$library
+old_path$81$81$regular
+db$83$83$regular
+understand.open(old_path)$83$83$library
+understand.open(old_path)$83$83$library
+lineNum$84$84$regular
+line$85$85$library
+defLine_src$86$86$regular
+lines_srcDef[lineNum]$86$86$library
+longName_src$88$88$regular
+line.split("";"")[0]$88$88$library
+line.split("";"")[0]$88$88$builtin
+print(""longName:"", longName_src)$89$89$builtin
+tmps$90$90$regular
+longName_src.split(""\\"")$90$90$builtin
+longName_src.split(""\\"")$90$90$builtin
+len(tmps)$91$91$builtin
+tmps[len(tmps) - 1]$91$91$library
+exact_longName$92$92$regular
+begin_index$93$93$regular
+tmps.index(""src"")$93$93$builtin
+tmps.index(""src"")$93$93$builtin
+tmp$95$95$library
+exact_longName[:-1]$97$97$library
+print(""exactName:"", exact_longName)$98$98$builtin
+line.split("";"")[2].split(""->"")[0].split("","")[0]$100$100$library
+line.split("";"")[2].split(""->"")[0].split("","")[0]$100$100$builtin
+line.split("";"")[2].split(""->"")[0].split("","")[0]$100$100$builtin
+line.split("";"")[2].split(""->"")[0].split("","")[0]$100$100$builtin
+int(line.split("";"")[2].split(""->"")[0].split("","")[0])$100$100$builtin
+findFile$104$104$regular
+begin$105$105$regular
+print(startLine_src, endLine_src, startCol_src, endCol_src)$106$106$builtin
+file$107$107$library
+db.ents(""File"")$107$107$library
+file.longname()$108$108$library
+file.longname()$108$108$library
+print(""find file:"", fileName, file.longname())$109$109$builtin
+lexemes$110$110$regular
+file.lexer().lexemes(startLine_src, endLine_src)$110$110$library
+file.lexer().lexemes(startLine_src, endLine_src)$110$110$library
+file.lexer().lexemes(startLine_src, endLine_src)$110$110$library
+start_lexeme$111$111$regular
+file.lexer().lexeme(startLine_src, startCol_src-1)$111$111$library
+file.lexer().lexeme(startLine_src, startCol_src-1)$111$111$library
+file.lexer().lexeme(startLine_src, startCol_src-1)$111$111$library
+type_exist$112$112$regular
+start_text$114$114$regular
+start_lexeme.text()$114$114$library
+start_token$115$115$regular
+start_lexeme.token()$115$115$library
+print(""start_text:"" + start_text)$116$116$builtin
+print(""error type!"")$119$119$builtin
+size$120$120$regular
+len(lexemes)$120$120$builtin
+count$121$121$regular
+fullText$122$122$regular
+lexeme$123$123$library
+lexeme.text()$126$126$library
+lexeme.text()$126$126$library
+lexeme.token()$126$126$library
+lexeme.token()$126$126$library
+text$138$138$regular
+str(lexeme.text())$138$138$builtin
+normalization(text, defLine_src)$143$143$regular
+text.replace(""}"", """")$146$146$builtin
+text.replace(""}"", """")$146$146$builtin
+end$151$151$library
+print(text, end="""")$151$151$builtin
+src.write(fullText)$156$156$builtin
+src.write(fullText)$156$156$builtin
+src.write(""\n------\n"")$159$159$builtin
+src.write(""\n------\n"")$159$159$builtin
+Exception$162$162$library
+os.system(""git checkout "" + new_commit)$164$164$library
+os.system(""git checkout "" + new_commit)$164$164$library
+new_path$165$165$regular
+understand.open(new_path)$167$167$library
+understand.open(new_path)$167$167$library
+defLine_dst$170$170$regular
+lines_dstDef[lineNum]$170$170$library
+longName_dst$172$172$regular
+print(""longName:"", longName_dst)$173$173$builtin
+longName_dst.split(""\\"")$174$174$builtin
+longName_dst.split(""\\"")$174$174$builtin
+print(startLine_dst, endLine_dst, startCol_dst, endCol_dst)$189$189$builtin
+file.lexer().lexemes(startLine_dst, endLine_dst)$193$193$library
+file.lexer().lexemes(startLine_dst, endLine_dst)$193$193$library
+file.lexer().lexemes(startLine_dst, endLine_dst)$193$193$library
+file.lexer().lexeme(startLine_dst, startCol_dst-1)$194$194$library
+file.lexer().lexeme(startLine_dst, startCol_dst-1)$194$194$library
+file.lexer().lexeme(startLine_dst, startCol_dst-1)$194$194$library
+normalization(text, defLine_dst)$226$226$regular
+dst.write(fullText)$239$239$builtin
+dst.write(fullText)$239$239$builtin
+dst.write(""\n------\n"")$242$242$builtin
+dst.write(""\n------\n"")$242$242$builtin
+src.close()$246$246$builtin
+src.close()$246$246$builtin
+dst.close()$247$247$builtin
+dst.close()$247$247$builtin
+output$10$10$regular
+udb_path$11$11$regular
+lang$11$11$library
+language$11$11$regular
+project$11$11$library
+project_root$11$11$regular
+""und create -db {udb_path} -languages {lang} add {project} analyze"".format(udb_path=udb_path, lang=language, project=project_root)$11$11$builtin
+shell$12$12$library
+subprocess.check_output            ""und create -db {udb_path} -languages {lang} add {project} analyze"".format(udb_path=udb_path, lang=language, project=project_root),            shell=True)$10$12$library
+subprocess.check_output            ""und create -db {udb_path} -languages {lang} add {project} analyze"".format(udb_path=udb_path, lang=language, project=project_root),            shell=True)$10$12$library
+logging.info(output)$13$13$library
+logging.info(output)$13$13$library
+subprocess.CalledProcessError$14$14$library
+subprocess.CalledProcessError$14$14$library
+e.output$15$15$library
+e.output$15$15$library
+logging.exception(e.output)$15$15$library
+logging.exception(e.output)$15$15$library
+logging.fatal(""udb creation failed"")$16$16$library
+logging.fatal(""udb creation failed"")$16$16$library
+Exception$17$17$library
+defs$21$21$regular
+defline.split("";"")$21$21$builtin
+defline.split("";"")$21$21$builtin
+len(defs)$22$22$builtin
+token$23$23$regular
+defs[:-1]$25$25$library
+definition$26$26$library
+tmps$27$27$regular
+definition.split(""->"")$27$27$library
+definition.split(""->"")$27$27$builtin
+var$28$28$regular
+tmps[0]$28$28$library
+replace_label$29$29$regular
